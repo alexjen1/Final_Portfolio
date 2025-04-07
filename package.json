@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "lint": "vue-cli-service lint"
+  },
+  "engines": {
+  "node": "16.x"
   },
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^1.0.5",

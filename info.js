@@ -1,7 +1,7 @@
 let info = {
   name: "Alexandreate Jenedick Naynes",
   logo_name: "AJN",
-  flat_picture: require("./src/assets/image.png"),
+  flat_picture: require("./src/assets/"),
   config: {
     use_cookies: true,
     navbar: {

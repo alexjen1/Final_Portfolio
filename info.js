@@ -89,7 +89,7 @@ let info = {
     },
     {
       title: "databases",
-      info: [ "MySQL", "NoSQL", "Directus"],
+      info: [ "MySQL", "NoSQL", "SQL"],
       icon: "fa fa-database"
     },
     {
